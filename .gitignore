@@ -1,0 +1,7 @@
+.s3.env
+.venv/
+build/
+__pycache__/
+*.safetensors
+*.bin
+*.tar.gz

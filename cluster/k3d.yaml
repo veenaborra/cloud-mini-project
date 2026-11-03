@@ -1,0 +1,14 @@
+apiVersion: k3d.io/v1alpha5
+kind: Simple
+metadata:
+  name: cc-mini
+servers: 1
+agents: 1
+image: rancher/k3s:v1.30.6-k3s1
+ports:
+  - port: 8080:80          # laptop 8080 -> Traefik Ingress (load test uses localhost:8080)
+    nodeFilters:
+      - loadbalancer
+  - port: 8333:30333       # laptop 8333 -> SeaweedFS S3 (NodePort 30333), needed in Step 2
+    nodeFilters:
+      - server:0
