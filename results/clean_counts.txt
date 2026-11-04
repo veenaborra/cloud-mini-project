@@ -1,0 +1,11 @@
+coverage: 3000 pool ids, missing=0, repeated=0
+{
+  "input": 3000,
+  "invalid_json": 0,
+  "wrong_keys": 2,
+  "bad_intent": 2,
+  "invented_slot": 183,
+  "duplicate": 48,
+  "kept": 2765
+}
+sha256 8f7ade4bb69db11c02dda047269be0f2ed7110fe636b32695fb2e39d21a2da0e

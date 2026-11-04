@@ -1,0 +1,12 @@
+NAME                      STATUS    COMPLETIONS   DURATION   AGE     CONTAINERS   IMAGES          SELECTOR
+job.batch/teacher-label   Running   0/2           5h35m      5h35m   worker       cc-worker:1.0   batch.kubernetes.io/controller-uid=961154fb-60b3-4268-ad92-4ef5f8edb8f3
+
+NAME                        READY   STATUS    RESTARTS   AGE     IP          NODE                   NOMINATED NODE   READINESS GATES
+pod/teacher-label-0-qtcmq   1/1     Running   0          5h35m   10.42.1.7   k3d-cc-mini-server-0   <none>           <none>
+pod/teacher-label-1-gdwmb   1/1     Running   0          5h35m   10.42.1.8   k3d-cc-mini-server-0   <none>           <none>
+POD                     INDEX   NODE
+teacher-label-0-qtcmq   0       k3d-cc-mini-server-0
+teacher-label-1-gdwmb   1       k3d-cc-mini-server-0
+POD                     INDEX   NODE
+teacher-label-0-qtcmq   0       k3d-cc-mini-server-0
+teacher-label-1-gdwmb   1       k3d-cc-mini-server-0

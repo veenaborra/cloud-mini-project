@@ -1,0 +1,167 @@
+[pod/teacher-label-0-qtcmq/worker] shard 0/2: 1500 commands -> datasets/teacher/shard-0.jsonl
+[pod/teacher-label-0-qtcmq/worker] already done: 0
+[pod/teacher-label-0-qtcmq/worker] 25/1500  0.00 cmd/s  ~19735 min left
+[pod/teacher-label-0-qtcmq/worker] 50/1500  0.10 cmd/s  ~233 min left
+[pod/teacher-label-0-qtcmq/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] retry 2: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] 75/1500  0.00 cmd/s  ~6494 min left
+[pod/teacher-label-0-qtcmq/worker] 100/1500  0.11 cmd/s  ~213 min left
+[pod/teacher-label-0-qtcmq/worker] 125/1500  0.11 cmd/s  ~204 min left
+[pod/teacher-label-0-qtcmq/worker] 150/1500  0.01 cmd/s  ~3167 min left
+[pod/teacher-label-0-qtcmq/worker] 175/1500  0.01 cmd/s  ~2689 min left
+[pod/teacher-label-0-qtcmq/worker] 200/1500  0.12 cmd/s  ~185 min left
+[pod/teacher-label-0-qtcmq/worker] 225/1500  0.12 cmd/s  ~180 min left
+[pod/teacher-label-0-qtcmq/worker] 250/1500  0.12 cmd/s  ~175 min left
+[pod/teacher-label-0-qtcmq/worker] 275/1500  0.12 cmd/s  ~170 min left
+[pod/teacher-label-0-qtcmq/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] retry 2: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] 300/1500  0.12 cmd/s  ~167 min left
+[pod/teacher-label-0-qtcmq/worker] 325/1500  0.12 cmd/s  ~162 min left
+[pod/teacher-label-0-qtcmq/worker] 350/1500  0.12 cmd/s  ~158 min left
+[pod/teacher-label-0-qtcmq/worker] 375/1500  0.12 cmd/s  ~154 min left
+[pod/teacher-label-0-qtcmq/worker] 400/1500  0.12 cmd/s  ~150 min left
+[pod/teacher-label-0-qtcmq/worker] 425/1500  0.12 cmd/s  ~146 min left
+[pod/teacher-label-0-qtcmq/worker] retry 1: HTTP Error 500: Internal Server Error
+[pod/teacher-label-0-qtcmq/worker] 450/1500  0.12 cmd/s  ~144 min left
+[pod/teacher-label-0-qtcmq/worker] 475/1500  0.12 cmd/s  ~141 min left
+[pod/teacher-label-0-qtcmq/worker] 500/1500  0.12 cmd/s  ~137 min left
+[pod/teacher-label-0-qtcmq/worker] 525/1500  0.12 cmd/s  ~133 min left
+[pod/teacher-label-0-qtcmq/worker] 550/1500  0.12 cmd/s  ~130 min left
+[pod/teacher-label-0-qtcmq/worker] 575/1500  0.12 cmd/s  ~126 min left
+[pod/teacher-label-0-qtcmq/worker] 600/1500  0.12 cmd/s  ~123 min left
+[pod/teacher-label-0-qtcmq/worker] 625/1500  0.12 cmd/s  ~119 min left
+[pod/teacher-label-0-qtcmq/worker] 650/1500  0.12 cmd/s  ~115 min left
+[pod/teacher-label-0-qtcmq/worker] 675/1500  0.12 cmd/s  ~112 min left
+[pod/teacher-label-0-qtcmq/worker] 700/1500  0.12 cmd/s  ~108 min left
+[pod/teacher-label-0-qtcmq/worker] 725/1500  0.12 cmd/s  ~105 min left
+[pod/teacher-label-0-qtcmq/worker] 750/1500  0.12 cmd/s  ~101 min left
+[pod/teacher-label-0-qtcmq/worker] 775/1500  0.12 cmd/s  ~98 min left
+[pod/teacher-label-0-qtcmq/worker] 800/1500  0.12 cmd/s  ~94 min left
+[pod/teacher-label-0-qtcmq/worker] 825/1500  0.12 cmd/s  ~91 min left
+[pod/teacher-label-0-qtcmq/worker] 850/1500  0.12 cmd/s  ~88 min left
+[pod/teacher-label-0-qtcmq/worker] 875/1500  0.12 cmd/s  ~84 min left
+[pod/teacher-label-0-qtcmq/worker] 900/1500  0.12 cmd/s  ~81 min left
+[pod/teacher-label-0-qtcmq/worker] 925/1500  0.12 cmd/s  ~77 min left
+[pod/teacher-label-0-qtcmq/worker] 950/1500  0.12 cmd/s  ~74 min left
+[pod/teacher-label-0-qtcmq/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] 975/1500  0.04 cmd/s  ~248 min left
+[pod/teacher-label-0-qtcmq/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] 1000/1500  0.12 cmd/s  ~67 min left
+[pod/teacher-label-0-qtcmq/worker] 1025/1500  0.12 cmd/s  ~64 min left
+[pod/teacher-label-0-qtcmq/worker] 1050/1500  0.12 cmd/s  ~60 min left
+[pod/teacher-label-0-qtcmq/worker] 1075/1500  0.04 cmd/s  ~188 min left
+[pod/teacher-label-0-qtcmq/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] 1100/1500  0.12 cmd/s  ~54 min left
+[pod/teacher-label-0-qtcmq/worker] 1125/1500  0.12 cmd/s  ~50 min left
+[pod/teacher-label-0-qtcmq/worker] 1150/1500  0.12 cmd/s  ~47 min left
+[pod/teacher-label-0-qtcmq/worker] 1175/1500  0.12 cmd/s  ~43 min left
+[pod/teacher-label-0-qtcmq/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] retry 2: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] 1200/1500  0.12 cmd/s  ~40 min left
+[pod/teacher-label-0-qtcmq/worker] 1225/1500  0.12 cmd/s  ~37 min left
+[pod/teacher-label-0-qtcmq/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] 1250/1500  0.12 cmd/s  ~33 min left
+[pod/teacher-label-0-qtcmq/worker] 1275/1500  0.12 cmd/s  ~30 min left
+[pod/teacher-label-0-qtcmq/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] retry 2: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] 1300/1500  0.12 cmd/s  ~27 min left
+[pod/teacher-label-0-qtcmq/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] 1325/1500  0.12 cmd/s  ~23 min left
+[pod/teacher-label-0-qtcmq/worker] 1350/1500  0.12 cmd/s  ~20 min left
+[pod/teacher-label-0-qtcmq/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] retry 2: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] 1375/1500  0.12 cmd/s  ~17 min left
+[pod/teacher-label-0-qtcmq/worker] 1400/1500  0.05 cmd/s  ~37 min left
+[pod/teacher-label-0-qtcmq/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] 1425/1500  0.12 cmd/s  ~10 min left
+[pod/teacher-label-0-qtcmq/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] 1450/1500  0.12 cmd/s  ~7 min left
+[pod/teacher-label-0-qtcmq/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-0-qtcmq/worker] 1475/1500  0.12 cmd/s  ~3 min left
+[pod/teacher-label-0-qtcmq/worker] 1500/1500  0.05 cmd/s  ~0 min left
+[pod/teacher-label-0-qtcmq/worker] finished shard 0: 1500 records
+[pod/teacher-label-1-gdwmb/worker] shard 1/2: 1500 commands -> datasets/teacher/shard-1.jsonl
+[pod/teacher-label-1-gdwmb/worker] already done: 0
+[pod/teacher-label-1-gdwmb/worker] 25/1500  0.00 cmd/s  ~19733 min left
+[pod/teacher-label-1-gdwmb/worker] 50/1500  0.10 cmd/s  ~235 min left
+[pod/teacher-label-1-gdwmb/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] 75/1500  0.00 cmd/s  ~6492 min left
+[pod/teacher-label-1-gdwmb/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] 100/1500  0.11 cmd/s  ~213 min left
+[pod/teacher-label-1-gdwmb/worker] 125/1500  0.11 cmd/s  ~205 min left
+[pod/teacher-label-1-gdwmb/worker] 150/1500  0.01 cmd/s  ~3168 min left
+[pod/teacher-label-1-gdwmb/worker] 175/1500  0.01 cmd/s  ~2690 min left
+[pod/teacher-label-1-gdwmb/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] 200/1500  0.12 cmd/s  ~187 min left
+[pod/teacher-label-1-gdwmb/worker] 225/1500  0.12 cmd/s  ~182 min left
+[pod/teacher-label-1-gdwmb/worker] 250/1500  0.12 cmd/s  ~177 min left
+[pod/teacher-label-1-gdwmb/worker] 275/1500  0.01 cmd/s  ~1642 min left
+[pod/teacher-label-1-gdwmb/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] retry 2: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] 300/1500  0.12 cmd/s  ~168 min left
+[pod/teacher-label-1-gdwmb/worker] 325/1500  0.12 cmd/s  ~164 min left
+[pod/teacher-label-1-gdwmb/worker] 350/1500  0.12 cmd/s  ~160 min left
+[pod/teacher-label-1-gdwmb/worker] 375/1500  0.12 cmd/s  ~156 min left
+[pod/teacher-label-1-gdwmb/worker] 400/1500  0.12 cmd/s  ~152 min left
+[pod/teacher-label-1-gdwmb/worker] 425/1500  0.12 cmd/s  ~148 min left
+[pod/teacher-label-1-gdwmb/worker] 450/1500  0.12 cmd/s  ~144 min left
+[pod/teacher-label-1-gdwmb/worker] 475/1500  0.12 cmd/s  ~141 min left
+[pod/teacher-label-1-gdwmb/worker] 500/1500  0.12 cmd/s  ~137 min left
+[pod/teacher-label-1-gdwmb/worker] 525/1500  0.12 cmd/s  ~133 min left
+[pod/teacher-label-1-gdwmb/worker] 550/1500  0.12 cmd/s  ~129 min left
+[pod/teacher-label-1-gdwmb/worker] 575/1500  0.12 cmd/s  ~126 min left
+[pod/teacher-label-1-gdwmb/worker] 600/1500  0.12 cmd/s  ~122 min left
+[pod/teacher-label-1-gdwmb/worker] 625/1500  0.12 cmd/s  ~119 min left
+[pod/teacher-label-1-gdwmb/worker] 650/1500  0.12 cmd/s  ~115 min left
+[pod/teacher-label-1-gdwmb/worker] 675/1500  0.12 cmd/s  ~112 min left
+[pod/teacher-label-1-gdwmb/worker] 700/1500  0.12 cmd/s  ~108 min left
+[pod/teacher-label-1-gdwmb/worker] 725/1500  0.12 cmd/s  ~105 min left
+[pod/teacher-label-1-gdwmb/worker] 750/1500  0.12 cmd/s  ~101 min left
+[pod/teacher-label-1-gdwmb/worker] 775/1500  0.12 cmd/s  ~98 min left
+[pod/teacher-label-1-gdwmb/worker] 800/1500  0.12 cmd/s  ~94 min left
+[pod/teacher-label-1-gdwmb/worker] 825/1500  0.12 cmd/s  ~91 min left
+[pod/teacher-label-1-gdwmb/worker] 850/1500  0.12 cmd/s  ~88 min left
+[pod/teacher-label-1-gdwmb/worker] 875/1500  0.12 cmd/s  ~84 min left
+[pod/teacher-label-1-gdwmb/worker] 900/1500  0.12 cmd/s  ~81 min left
+[pod/teacher-label-1-gdwmb/worker] 925/1500  0.12 cmd/s  ~77 min left
+[pod/teacher-label-1-gdwmb/worker] 950/1500  0.12 cmd/s  ~74 min left
+[pod/teacher-label-1-gdwmb/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] 975/1500  0.04 cmd/s  ~248 min left
+[pod/teacher-label-1-gdwmb/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] retry 2: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] 1000/1500  0.12 cmd/s  ~67 min left
+[pod/teacher-label-1-gdwmb/worker] 1025/1500  0.12 cmd/s  ~64 min left
+[pod/teacher-label-1-gdwmb/worker] 1050/1500  0.12 cmd/s  ~60 min left
+[pod/teacher-label-1-gdwmb/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] 1075/1500  0.04 cmd/s  ~188 min left
+[pod/teacher-label-1-gdwmb/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] 1100/1500  0.12 cmd/s  ~54 min left
+[pod/teacher-label-1-gdwmb/worker] 1125/1500  0.12 cmd/s  ~50 min left
+[pod/teacher-label-1-gdwmb/worker] 1150/1500  0.12 cmd/s  ~47 min left
+[pod/teacher-label-1-gdwmb/worker] 1175/1500  0.12 cmd/s  ~44 min left
+[pod/teacher-label-1-gdwmb/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] 1200/1500  0.04 cmd/s  ~123 min left
+[pod/teacher-label-1-gdwmb/worker] 1225/1500  0.12 cmd/s  ~37 min left
+[pod/teacher-label-1-gdwmb/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] 1250/1500  0.12 cmd/s  ~33 min left
+[pod/teacher-label-1-gdwmb/worker] 1275/1500  0.12 cmd/s  ~30 min left
+[pod/teacher-label-1-gdwmb/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] retry 2: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] 1300/1500  0.12 cmd/s  ~27 min left
+[pod/teacher-label-1-gdwmb/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] 1325/1500  0.12 cmd/s  ~23 min left
+[pod/teacher-label-1-gdwmb/worker] 1350/1500  0.12 cmd/s  ~20 min left
+[pod/teacher-label-1-gdwmb/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] retry 2: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] 1375/1500  0.12 cmd/s  ~17 min left
+[pod/teacher-label-1-gdwmb/worker] 1400/1500  0.12 cmd/s  ~13 min left
+[pod/teacher-label-1-gdwmb/worker] 1425/1500  0.12 cmd/s  ~10 min left
+[pod/teacher-label-1-gdwmb/worker] retry 1: <urlopen error [Errno -3] Temporary failure in name resolution>
+[pod/teacher-label-1-gdwmb/worker] retry 1: HTTP Error 500: Internal Server Error
+[pod/teacher-label-1-gdwmb/worker] retry 2: HTTP Error 500: Internal Server Error
+[pod/teacher-label-1-gdwmb/worker] 1450/1500  0.12 cmd/s  ~7 min left
+[pod/teacher-label-1-gdwmb/worker] 1475/1500  0.12 cmd/s  ~3 min left
+[pod/teacher-label-1-gdwmb/worker] 1500/1500  0.05 cmd/s  ~0 min left
+[pod/teacher-label-1-gdwmb/worker] finished shard 1: 1500 records
