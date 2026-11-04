@@ -1,0 +1,36 @@
+== run 1 11:19:35
+pod "cmd-parser-7cd844d449-mdtsb" deleted from app namespace
+pod "cmd-parser-7cd844d449-nlxbq" deleted from app namespace
+COLDSTART pod=cmd-parser-7cd844d449-2c2zp created=2026-11-04T11:19:36Z ready=2026-11-04T11:19:48Z seconds=12
+2026-11-04 11:19:39,438 INFO MODEL DOWNLOAD START uri=s3://models/v1/ version=v1
+2026-11-04 11:19:44,071 INFO MODEL DOWNLOAD DONE files=8 seconds=4.6
+2026-11-04 11:19:46,796 INFO MODEL READY version=v1 total_seconds=7.4
+COLDSTART pod=cmd-parser-7cd844d449-4hpxw created=2026-11-04T11:19:36Z ready=2026-11-04T11:19:46Z seconds=10
+2026-11-04 11:19:39,432 INFO MODEL DOWNLOAD START uri=s3://models/v1/ version=v1
+2026-11-04 11:19:43,887 INFO MODEL DOWNLOAD DONE files=8 seconds=4.5
+2026-11-04 11:19:46,483 INFO MODEL READY version=v1 total_seconds=7.1
+== run 2 11:19:51
+pod "cmd-parser-7cd844d449-2c2zp" deleted from app namespace
+pod "cmd-parser-7cd844d449-4hpxw" deleted from app namespace
+COLDSTART pod=cmd-parser-7cd844d449-7xmhd created=2026-11-04T11:19:52Z ready=2026-11-04T11:20:02Z seconds=10
+2026-11-04 11:19:55,796 INFO MODEL DOWNLOAD START uri=s3://models/v1/ version=v1
+2026-11-04 11:19:59,645 INFO MODEL DOWNLOAD DONE files=8 seconds=3.8
+2026-11-04 11:20:02,453 INFO MODEL READY version=v1 total_seconds=6.7
+COLDSTART pod=cmd-parser-7cd844d449-gm45s created=2026-11-04T11:19:52Z ready=2026-11-04T11:20:02Z seconds=10
+2026-11-04 11:19:55,797 INFO MODEL DOWNLOAD START uri=s3://models/v1/ version=v1
+2026-11-04 11:19:59,667 INFO MODEL DOWNLOAD DONE files=8 seconds=3.9
+2026-11-04 11:20:02,557 INFO MODEL READY version=v1 total_seconds=6.8
+== run 3 11:20:07
+pod "cmd-parser-7cd844d449-7xmhd" deleted from app namespace
+pod "cmd-parser-7cd844d449-gm45s" deleted from app namespace
+COLDSTART pod=cmd-parser-7cd844d449-jwdhn created=2026-11-04T11:20:08Z ready=2026-11-04T11:20:19Z seconds=11
+2026-11-04 11:20:11,813 INFO MODEL DOWNLOAD START uri=s3://models/v1/ version=v1
+2026-11-04 11:20:15,680 INFO MODEL DOWNLOAD DONE files=8 seconds=3.9
+2026-11-04 11:20:18,715 INFO MODEL READY version=v1 total_seconds=6.9
+COLDSTART pod=cmd-parser-7cd844d449-zxr6x created=2026-11-04T11:20:08Z ready=2026-11-04T11:20:18Z seconds=10
+2026-11-04 11:20:11,804 INFO MODEL DOWNLOAD START uri=s3://models/v1/ version=v1
+2026-11-04 11:20:15,606 INFO MODEL DOWNLOAD DONE files=8 seconds=3.8
+2026-11-04 11:20:18,530 INFO MODEL READY version=v1 total_seconds=6.7
+== cold-start times (Pod created -> Ready), seconds:
+12 10 10 10 11 10 
+run medians: 11, 10, 10.5  ->  median over 3 runs = 10.5 s
