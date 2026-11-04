@@ -1,0 +1,27 @@
+== GitHub Release assets
+model-v1.sha256 82
+model-v1.tar.gz 235010542
+model-v2.sha256 82
+model-v2.tar.gz 234961903
+== sha256 of downloaded release asset
+ca581b47a7e866f3de4895d593aa4212c204924404c96b990f93ffc93d2e2c63  /tmp/rel/model-v1.tar.gz
+== models/v1/model.sha256 in SeaweedFS
+ca581b47a7e866f3de4895d593aa4212c204924404c96b990f93ffc93d2e2c63  model-v1.tar.gz
+
+== objects in models bucket
+v1/config.json 799
+v1/generation_config.json 111
+v1/model.safetensors 281715176
+v1/model.sha256 82
+v1/special_tokens_map.json 441
+v1/tokenizer.json 3564303
+v1/tokenizer_config.json 4835
+v1/version.json 191
+v2/config.json 799
+v2/generation_config.json 111
+v2/model.safetensors 281715176
+v2/model.sha256 82
+v2/special_tokens_map.json 441
+v2/tokenizer.json 3564303
+v2/tokenizer_config.json 4835
+v2/version.json 191
