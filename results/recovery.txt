@@ -1,0 +1,28 @@
+NAME                          READY   STATUS    RESTARTS   AGE   IP           NODE                   NOMINATED NODE   READINESS GATES
+cmd-parser-7cd844d449-dzsjh   1/1     Running   0          87s   10.42.1.16   k3d-cc-mini-server-0   <none>           <none>
+cmd-parser-7cd844d449-nlxbq   1/1     Running   0          12m   10.42.0.11   k3d-cc-mini-agent-0    <none>           <none>
+11:11:11 start load (3 min)
+11:11:57 DELETING cmd-parser-7cd844d449-dzsjh
+pod "cmd-parser-7cd844d449-dzsjh" deleted from app namespace
+11:11:57 ready=1/2
+11:12:01 ready=1/2
+11:12:04 ready=1/2
+11:12:08 ready=2/2
+11:12:11 ready=2/2
+11:12:15 ready=2/2
+11:12:19 ready=2/2
+11:12:22 ready=2/2
+11:12:26 ready=2/2
+11:12:29 ready=2/2
+11:12:33 ready=2/2
+11:12:37 ready=2/2
+11:12:40 ready=2/2
+11:12:44 ready=2/2
+11:12:47 ready=2/2
+NAME                          READY   STATUS    RESTARTS   AGE   IP           NODE                   NOMINATED NODE   READINESS GATES
+cmd-parser-7cd844d449-mdtsb   1/1     Running   0          54s   10.42.1.17   k3d-cc-mini-server-0   <none>           <none>
+cmd-parser-7cd844d449-nlxbq   1/1     Running   0          14m   10.42.0.11   k3d-cc-mini-agent-0    <none>           <none>
+== load test during recovery
+Type,Name,Request Count,Failure Count,Median Response Time,Average Response Time,Min Response Time,Max Response Time,Average Content Size,Requests/s,Failures/s,50%,66%,75%,80%,90%,95%,98%,99%,99.9%,99.99%,100%
+,Aggregated,662,0,1000.0,1078.8976943005919,412.61009099980583,2146.3066639989847,70.37462235649546,3.69865357467033,0.0,1000,1100,1200,1300,1600,1700,1900,1900,2100,2100,2100
+Method,Name,Error,Occurrences
