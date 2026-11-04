@@ -42,16 +42,16 @@ def save(lines):
 
 
 lines = s3.get_object(Bucket=BUCKET, Key="commands_pool.jsonl")["Body"].read().decode().splitlines()
-mine = [json.loads(l) for i, l in enumerate(lines) if l.strip() and i % SHARD_COUNT == SHARD_INDEX]
+mine = [json.loads(line) for i, line in enumerate(lines) if line.strip() and i % SHARD_COUNT == SHARD_INDEX]
 print(f"shard {SHARD_INDEX}/{SHARD_COUNT}: {len(mine)} commands -> {BUCKET}/{OUT_KEY}", flush=True)
 
 # resume: keep what an earlier run already saved
 try:
     done = s3.get_object(Bucket=BUCKET, Key=OUT_KEY)["Body"].read().decode().splitlines()
-    done = [l for l in done if l.strip()]
+    done = [line for line in done if line.strip()]
 except s3.exceptions.NoSuchKey:
     done = []
-done_ids = {json.loads(l)["id"] for l in done}
+done_ids = {json.loads(line)["id"] for line in done}
 print(f"already done: {len(done_ids)}", flush=True)
 
 t0, new = time.time(), 0

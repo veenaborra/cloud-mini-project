@@ -29,7 +29,7 @@ def main():
     random.seed(seed); np.random.seed(seed); torch.manual_seed(seed)
 
     limit = min(a.subset, cfg["max_records"]) if a.subset else cfg["max_records"]
-    rows = [json.loads(l) for l in open(os.path.join(ROOT, cfg["train_file"]), encoding="utf-8") if l.strip()][:limit]
+    rows = [json.loads(line) for line in open(os.path.join(ROOT, cfg["train_file"]), encoding="utf-8") if line.strip()][:limit]
     tag = a.version + (f"-subset{a.subset}" if a.subset else "")
     out_dir = os.path.join(ROOT, "build", f"model-{tag}")
     loss_path = os.path.join(ROOT, "training", "loss.csv" if a.version == "v1" else f"loss_{a.version}.csv")

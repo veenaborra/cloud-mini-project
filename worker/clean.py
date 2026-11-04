@@ -84,7 +84,7 @@ def main():
                     records.append(r)
                     owner.setdefault(r["id"], []).append(name)
     if a.pool:
-        pool = [json.loads(l)["id"] for l in open(a.pool) if l.strip()]
+        pool = [json.loads(line)["id"] for line in open(a.pool) if line.strip()]
         missing = [i for i in pool if i not in owner]
         repeated = [i for i, s in owner.items() if len(s) > 1]
         print(f"coverage: {len(pool)} pool ids, missing={len(missing)}, repeated={len(repeated)}")

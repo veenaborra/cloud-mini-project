@@ -1,0 +1,5 @@
+line-length = 130
+extend-exclude = ["tools"]     # instructor-provided scripts
+[lint]
+select = ["E", "F", "W"]
+ignore = ["E401", "E702"]
