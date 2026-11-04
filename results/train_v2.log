@@ -1,0 +1,10 @@
+.venv/bin/python training/train.py --version v2 
+v2: 1500 records, 7 epochs, lr 0.0005, bs 16
+epoch 1: loss 0.8554  (424s)
+epoch 2: loss 0.3194  (850s)
+epoch 3: loss 0.1965  (1236s)
+epoch 4: loss 0.1285  (21476s)
+epoch 5: loss 0.0736  (2081s)
+epoch 6: loss 0.0439  (2483s)
+epoch 7: loss 0.0164  (2891s)
+saved /home/saiveena/cloud-project/training/../build/model-v2, loss -> /home/saiveena/cloud-project/training/../training/loss_v2.csv, 2891s
