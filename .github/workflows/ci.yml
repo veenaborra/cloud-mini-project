@@ -1,0 +1,80 @@
+name: ci
+
+on:
+  push:
+  workflow_dispatch:
+    inputs:
+      model:
+        description: "Release tag (model-v1, model-v2) or 'untrained' for raw Pythia-70M"
+        required: true
+        default: model-v1
+
+permissions:
+  contents: read
+
+env:
+  MODEL: ${{ github.event.inputs.model || 'model-v1' }}
+
+jobs:
+  secret-scan:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}                     # scan the full history
+      - name: gitleaks
+        run: |
+          curl -sSfL https://github.com/gitleaks/gitleaks/releases/download/v8.21.2/gitleaks_8.21.2_linux_x64.tar.gz | tar -xz gitleaks
+          ./gitleaks detect --source . --redact --verbose --exit-code 1
+
+  lint:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install ruff==0.8.4
+      - run: ruff check .
+
+  unit-tests:
+    needs: lint
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11", cache: pip}
+      - run: pip install -r requirements-ci.txt
+      - run: pytest -v tests
+
+  evaluate:
+    needs: unit-tests
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11", cache: pip}
+      - run: pip install -r service/requirements.txt
+      - name: Download model from GitHub Release and verify checksum
+        if: env.MODEL != 'untrained'
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          mkdir -p build/release && cd build/release
+          gh release download "$MODEL" -R "$GITHUB_REPOSITORY" -p "$MODEL.tar.gz" -p "$MODEL.sha256"
+          sha256sum -c "$MODEL.sha256"
+          tar -xzf "$MODEL.tar.gz" -C ..
+      - name: Predict and score on validation.jsonl
+        run: |
+          if [ "$MODEL" = untrained ]; then SRC=EleutherAI/pythia-70m; else SRC="build/$MODEL"; fi
+          python training/predict.py "$SRC" results/ci_predictions.jsonl
+          python tools/score.py results/ci_predictions.jsonl data/validation.jsonl --out results/ci_score.json
+      - uses: actions/upload-artifact@v4
+        with: {name: evaluation, path: results/ci_*}
+
+  quality-gate:
+    needs: evaluate
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: {name: evaluation, path: results}
+      - name: JSON validity must be at least 95%
+        run: python tools/score.py results/ci_predictions.jsonl data/validation.jsonl --min-validity 95
