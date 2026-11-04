@@ -1,0 +1,187 @@
+invented_slot | remind this after two days | {"intent": "calendar_set", "date": "in two days", "time": null, "place": null}
+invented_slot | clear my schedule for the month | {"intent": "calendar_remove", "date": "this month", "time": null, "place": null}
+invented_slot | is the weekend going to be nice | {"intent": "recommendation_events", "date": "this weekend", "time": null, "place": null}
+invented_slot | read me my calendar for the month | {"intent": "calendar_query", "date": "this month", "time": null, "place": null}
+invented_slot | i am need of an evening rain coat | {"intent": "recommendation_events", "date": null, "time": "evening", "place": "boston"}
+invented_slot | please delete all of my calendar events for the rest of the day | {"intent": "calendar_remove", "date": "today", "time": "rest of the day", "place": null}
+invented_slot | do i have a soccer game this weekend | {"intent": "recommendation_events", "date": "this weekend", "time": null, "place": "boston"}
+invented_slot | remind me thirty minutes early that i have a teleconference on tuesday | {"intent": "calendar_set", "date": "tuesday", "time": "thirty minutes before scheduled time", "place": null}
+invented_slot | show me what alarm times i've set for the week | {"intent": "alarm_query", "date": "this week", "time": null, "place": null}
+invented_slot | please check your calendar i have done somethings | {"intent": "calendar_query", "date": "today", "time": null, "place": null}
+invented_slot | add to my calendar mom's fashion dinner for may fifth | {"intent": "calendar_set", "date": "may fifth", "time": null, "place": "mom'dictate"}
+invented_slot | olly new york time | {"intent": "datetime_query", "date": null, "time": "now", "place": "new york"}
+invented_slot | is the balloon festival this weekend | {"intent": "recommendation_events", "date": "this weekend", "time": null, "place": "boston"}
+invented_slot | do i have a game on april seven | {"intent": "calendar_query", "date": "april seventh", "time": null, "place": null}
+invented_slot | my weekly plan | {"intent": "calendar_query", "date": "this week", "time": null, "place": null}
+invented_slot | please set a reminder for me to go to work in ten minutes | {"intent": "calendar_set", "date": "today", "time": "ten minutes", "place": "office"}
+invented_slot | avinash go with me on fifth april movie commando | {"intent": "recommendation_events", "date": "fifth april", "time": null, "place": "boston"}
+invented_slot | what can you tell me about the dance on friday | {"intent": "recommendation_events", "date": "friday", "time": null, "place": "boston"}
+invented_slot | how are things looking for the meeting with john | {"intent": "calendar_query", "date": "today", "time": null, "place": "office"}
+invented_slot | how late am i | {"intent": "datetime_query", "date": null, "time": "now", "place": null}
+invented_slot | mark next tuesday in my calendar as steve's birthday | {"intent": "calendar_set", "date": "next tuesday", "time": null, "place": "steve'sin my calendar"}
+invented_slot | what day of the week is the youth charity event | {"intent": "recommendation_events", "date": "today", "time": null, "place": null}
+invented_slot | what time does the sun set | {"intent": "datetime_query", "date": null, "time": "sunset", "place": null}
+wrong_keys | what is the timer in japan | {"intent": "datetime_query", "date": null, "time": "japan"}
+invented_slot | olly add dinner with jane on february twelfth at six pm | {"intent": "calendar_set", "date": "february twelfth", "time": "six pm", "place": "null"}
+invented_slot | please check on the rock concerts scheduled this weekend | {"intent": "recommendation_events", "date": "this weekend", "time": null, "place": "boston"}
+invented_slot | hey make sure i go to sarahs birthday party on the twelveth | {"intent": "calendar_set", "date": "twelfth", "time": null, "place": "sarahs birthday party"}
+invented_slot | please tell me current events for the day | {"intent": "recommendation_events", "date": "today", "time": null, "place": null}
+invented_slot | what meetings occurred between january one and january twelve | {"intent": "calendar_query", "date": "january one to january twelve", "time": null, "place": null}
+invented_slot | i no longer need to see the doctor can that event be removed | {"intent": "calendar_remove", "date": "today", "time": null, "place": null}
+invented_slot | put alarm for this meeting | {"intent": "alarm_set", "date": "today", "time": null, "place": null}
+invented_slot | add on calendar birthday party tomorrow two pm for jane at her house | {"intent": "calendar_set", "date": "tomorrow", "time": "two pm", "place": "jane's house"}
+invented_slot | will you remind me of my next dentist appointment one day before | {"intent": "calendar_set", "date": "tomorrow", "time": "one day before", "place": null}
+invented_slot | olly is there anything i should be reminded about | {"intent": "calendar_query", "date": "today", "time": null, "place": null}
+invented_slot | when do i need to pay the bills | {"intent": "datetime_query", "date": "today", "time": null, "place": null}
+invented_slot | should i plan to shovel my way out of the house | {"intent": "recommendation_events", "date": null, "time": null, "place": "home"}
+invented_slot | wake me up at five hundred and thirty | {"intent": "alarm_set", "date": null, "time": "five thirty", "place": null}
+invented_slot | what day is the meeting on | {"intent": "calendar_query", "date": "the day", "time": null, "place": null}
+bad_intent | i always pay attention | {"intent": null, "date": null, "time": null, "place": null}
+invented_slot | repeat this event | {"intent": "calendar_set", "date": "repeating", "time": null, "place": null}
+invented_slot | repeating event meeting on mondays | {"intent": "calendar_set", "date": "every monday", "time": null, "place": null}
+invented_slot | what day does halloween fall on this year | {"intent": "datetime_query", "date": "halloween this year", "time": null, "place": null}
+invented_slot | can you give me a ten minute timer | {"intent": "alarm_set", "date": null, "time": "ten minutes", "place": null}
+invented_slot | please tell me when is the birthday party of jenny | {"intent": "recommendation_events", "date": "jenny's birthday", "time": null, "place": null}
+invented_slot | add new year's eve to calendar | {"intent": "calendar_set", "date": "new year'seve", "time": null, "place": null}
+invented_slot | get me the details of upcoming oscar two thousand and seventeen | {"intent": "recommendation_events", "date": "2021", "time": null, "place": null}
+invented_slot | set a notification for eleven march that an interview is scheduled with mr rodriguez | {"intent": "calendar_set", "date": "march eleven", "time": null, "place": "boston"}
+invented_slot | any specific event in washington | {"intent": "calendar_query", "date": "today", "time": null, "place": "washington"}
+wrong_keys | tell me the time in japan | {"intent": "datetime_query", "date": null, "time": "japan"}
+invented_slot | olly i want to go to the outdoor movie screening this weekend remind me | {"intent": "recommendation_events", "date": "this weekend", "time": null, "place": "boston"}
+invented_slot | show me the meetings for the day | {"intent": "calendar_query", "date": "today", "time": null, "place": null}
+invented_slot | can you please disregard the party that i will be going to this weekend on my calendar | {"intent": "calendar_remove", "date": "this weekend", "time": null, "place": "boston"}
+invented_slot | set reminder in one hour for a meeting | {"intent": "calendar_set", "date": "one hour from now", "time": null, "place": null}
+invented_slot | do you know what day it is | {"intent": "datetime_query", "date": "today", "time": null, "place": null}
+invented_slot | set a timer at five am seven days a week | {"intent": "alarm_set", "date": "every day", "time": "five am", "place": null}
+invented_slot | i will attend lily's wedding next week with my boyfriend please add it to my calendar | {"intent": "calendar_set", "date": "next week", "time": null, "place": "boston"}
+invented_slot | which teams are playing this weekend | {"intent": "recommendation_events", "date": "this weekend", "time": null, "place": "boston"}
+invented_slot | schedule a meeting this monday with peter francis in the afternoon | {"intent": "calendar_set", "date": "this monday", "time": "afternoon", "place": "null"}
+invented_slot | what time does the meeting start | {"intent": "calendar_query", "date": null, "time": "the start time", "place": null}
+invented_slot | please give me a two hour warning before next saturdays meeting | {"intent": "calendar_set", "date": "next saturday", "time": "two hours before meeting", "place": null}
+invented_slot | please remind me about swatishs birthday | {"intent": "calendar_set", "date": "swatish's birthday", "time": null, "place": null}
+invented_slot | delete meeting scheduled with john on twenty one march | {"intent": "calendar_remove", "date": "twenty first march", "time": null, "place": null}
+invented_slot | for the week of the twentieth delete all tutoring events | {"intent": "calendar_remove", "date": "the twentieth week", "time": null, "place": null}
+invented_slot | how is my schedule for the day | {"intent": "calendar_query", "date": "today", "time": null, "place": null}
+invented_slot | send me a notification an hour before my next calendar events | {"intent": "calendar_query", "date": "next event", "time": "an hour before", "place": null}
+invented_slot | new calendar event for albert's marriage | {"intent": "calendar_set", "date": "albert'n", "time": null, "place": null}
+invented_slot | is it going to freeze overnight | {"intent": "weather_query", "date": "tonight", "time": null, "place": null}
+invented_slot | what day is this event scheduled for | {"intent": "calendar_query", "date": "today", "time": null, "place": null}
+invented_slot | schedule an event in my calendar for the pool party at jack's place this saturday | {"intent": "calendar_set", "date": "this saturday", "time": null, "place": "jack'sinmy"}
+invented_slot | fill my calendar with a meeting with garvin and trilly for december fifth at five hundred and thirty pm | {"intent": "calendar_set", "date": "december fifth", "time": "five thirty pm", "place": null}
+invented_slot | what was the date of two wednesdays back from today | {"intent": "datetime_query", "date": "two wednesdays ago", "time": null, "place": null}
+invented_slot | is there any festivals this weekend | {"intent": "recommendation_events", "date": "this weekend", "time": null, "place": "boston"}
+invented_slot | on my sisters birthday send her flowers | {"intent": "calendar_set", "date": "sister's birthday", "time": null, "place": null}
+invented_slot | show me events that are going on right now | {"intent": "calendar_query", "date": "today", "time": null, "place": null}
+invented_slot | olly i need to know if i have any new reminders | {"intent": "calendar_query", "date": "today", "time": null, "place": null}
+invented_slot | notify me in fifteen before meeting starts | {"intent": "calendar_set", "date": null, "time": "in fifteen minutes", "place": null}
+invented_slot | do they have any events going on downtown this weekend | {"intent": "recommendation_events", "date": "this weekend", "time": null, "place": "downtdictown"}
+invented_slot | what time does the festival start | {"intent": "recommendation_events", "date": null, "time": "the start time", "place": null}
+invented_slot | what is the current date | {"intent": "datetime_query", "date": "today", "time": null, "place": null}
+invented_slot | set a two day notification before maria's birthday please | {"intent": "calendar_set", "date": "two days before maria'thy birthday", "time": null, "place": null}
+invented_slot | place a birthday party with ale ross and amy in my calendar | {"intent": "calendar_set", "date": null, "time": null, "place": "boston"}
+invented_slot | what is the time difference between here and dakar | {"intent": "datetime_query", "date": null, "time": null, "place": "here,dakar"}
+invented_slot | what alarms do i have set right now | {"intent": "alarm_query", "date": "today", "time": null, "place": null}
+invented_slot | what time i sit in china right now | {"intent": "datetime_query", "date": "today", "time": "right now", "place": "china"}
+invented_slot | tell me any yard sales happening | {"intent": "recommendation_events", "date": null, "time": null, "place": "boston"}
+invented_slot | my work schedule | {"intent": "calendar_query", "date": null, "time": null, "place": "the office"}
+invented_slot | please tell me about a hour before thursday about my hair appointment | {"intent": "calendar_query", "date": "an hour before thursday", "time": "hair appointment", "place": null}
+invented_slot | be my clock | {"intent": "datetime_query", "date": null, "time": "now", "place": null}
+invented_slot | what time am i meeting john tomorrow | {"intent": "calendar_set", "date": "tomorrow", "time": "time i am meeting john", "place": null}
+invented_slot | add valentine's day with her tomorrow | {"intent": "calendar_set", "date": "valentine'thy", "time": null, "place": null}
+invented_slot | please set a reminder for church services on sundays for eleven am | {"intent": "calendar_set", "date": "every sunday", "time": "eleven am", "place": null}
+invented_slot | add work out to the calendar for monday through friday from five to six hundred am | {"intent": "calendar_set", "date": "monday through friday", "time": "five hundred am", "place": null}
+invented_slot | tell me the humidity level downtown today | {"intent": "weather_query", "date": "today", "time": null, "place": "downtdictown"}
+invented_slot | give weather stat for the week | {"intent": "weather_query", "date": "this week", "time": null, "place": null}
+invented_slot | remind me about the meeting in one hour | {"intent": "calendar_set", "date": "today", "time": "one hour", "place": null}
+invented_slot | do i have any appointments coming up | {"intent": "calendar_query", "date": "upcoming", "time": null, "place": null}
+invented_slot | set my alarm for six thirty in the morning tomorrow | {"intent": "alarm_set", "date": "tomorrow", "time": "six thirty am", "place": null}
+invented_slot | its not possible | {"intent": "recommendation_events", "date": "not specified", "time": null, "place": null}
+invented_slot | please check third event of twenty second of march twenty seventeen | {"intent": "calendar_query", "date": "2017-03-22", "time": null, "place": null}
+invented_slot | tell me what day of the week it is | {"intent": "datetime_query", "date": "today", "time": null, "place": null}
+invented_slot | don't let me forget to call alex | {"intent": "calendar_set", "date": "today", "time": null, "place": null}
+invented_slot | i need a repeating reminder for every monday at three hundred and thirty pm | {"intent": "calendar_set", "date": "every monday", "time": "three thirty pm", "place": null}
+bad_intent | then tap ok | {"intent": "ok", "date": null, "time": null, "place": null}
+invented_slot | ten day forecast | {"intent": "weather_query", "date": "ten days", "time": null, "place": null}
+invented_slot | is jimmie's party on friday cancelled | {"intent": "calendar_remove", "date": "friday", "time": null, "place": "jimmie'sin office"}
+invented_slot | show current events around me | {"intent": "recommendation_events", "date": null, "time": null, "place": "current location"}
+invented_slot | tell me a date | {"intent": "datetime_query", "date": "today", "time": null, "place": null}
+invented_slot | is there anything on my calendar on friday in the morning after i get to work | {"intent": "calendar_query", "date": "friday", "time": "morning after work", "place": null}
+invented_slot | what time does the acme meeting start on friday | {"intent": "calendar_set", "date": "friday", "time": "the start time", "place": null}
+invented_slot | remind me if i miss my evening walk routine | {"intent": "calendar_set", "date": "daily", "time": "evening", "place": null}
+invented_slot | please tell me when's my financial meeting | {"intent": "calendar_query", "date": "today", "time": null, "place": null}
+invented_slot | please we're the following alarm | {"intent": "alarm_query", "date": "today", "time": null, "place": null}
+invented_slot | count down for the birthday of my brother | {"intent": "recommendation_events", "date": "my brother's birthday", "time": null, "place": null}
+invented_slot | please tell me if there is going to be snow this weekend | {"intent": "weather_query", "date": "this weekend", "time": null, "place": "boston"}
+invented_slot | how far did i walk this morning | {"intent": "recommendation_events", "date": "today", "time": null, "place": null}
+invented_slot | show me my events for the month | {"intent": "calendar_query", "date": "this month", "time": null, "place": null}
+invented_slot | is there a chili cookoff this weekend | {"intent": "recommendation_events", "date": "this weekend", "time": null, "place": "boston"}
+invented_slot | schedule meeting with our employees regarding bonus | {"intent": "calendar_set", "date": null, "time": null, "place": "office"}
+invented_slot | is it going to be cloudy in london during the weekend | {"intent": "weather_query", "date": "this weekend", "time": null, "place": "london"}
+invented_slot | delete eric's bday from the calendar | {"intent": "calendar_remove", "date": "eric'd bday", "time": null, "place": null}
+invented_slot | add to calendar on this date and time with these people | {"intent": "calendar_set", "date": "this date", "time": "this time", "place": "with these people"}
+invented_slot | remove what i have to do on the twenty three of march | {"intent": "calendar_remove", "date": "twenty third of march", "time": null, "place": null}
+invented_slot | notify me an hour before my two pm appointment at the car dealership | {"intent": "calendar_set", "date": null, "time": "an hour before two pm", "place": "the car dealership"}
+invented_slot | can you remind me to go to dentist appointment one day before | {"intent": "calendar_set", "date": "tomorrow", "time": null, "place": null}
+invented_slot | notify me when my rent due | {"intent": "calendar_set", "date": "monthly", "time": null, "place": null}
+invented_slot | thursday at two pm i must meet with mr forman please mark the calendar | {"intent": "calendar_set", "date": "thursday", "time": "two pm", "place": "boston"}
+invented_slot | do i have a party tomorrow save on my calendar | {"intent": "calendar_set", "date": "tomorrow", "time": null, "place": "boston"}
+invented_slot | whats the time | {"intent": "datetime_query", "date": null, "time": "now", "place": null}
+invented_slot | in the calendar put that we are having dinner with frank at eight pm on the ninth of august | {"intent": "calendar_set", "date": "the ninth of august", "time": "eight pm", "place": "boston"}
+invented_slot | what day is it | {"intent": "datetime_query", "date": "today", "time": null, "place": null}
+invented_slot | where is the food festival tonight | {"intent": "recommendation_events", "date": "tonight", "time": null, "place": "boston"}
+invented_slot | alert me about birthday of wife in advance | {"intent": "calendar_set", "date": "wife's birthday", "time": null, "place": null}
+invented_slot | how many hours remaining to reach midnight in city | {"intent": "datetime_query", "date": "today", "time": "until midnight", "place": "city"}
+invented_slot | what day of the week is it | {"intent": "datetime_query", "date": "today", "time": null, "place": null}
+invented_slot | date of joining | {"intent": "datetime_query", "date": "today", "time": null, "place": null}
+invented_slot | mike will send me an email tomorrow can you please set up an alarm fifteen minutes after receiving that email | {"intent": "alarm_set", "date": "tomorrow", "time": "fifteen minutes after receiving email", "place": null}
+invented_slot | between may one and december thirty one what meetings occurred | {"intent": "calendar_query", "date": "may one to december thirty one", "time": null, "place": null}
+invented_slot | create repeating event john's birthday on calendar | {"intent": "calendar_set", "date": "john'dictate", "time": null, "place": null}
+invented_slot | please check the time | {"intent": "datetime_query", "date": null, "time": "now", "place": null}
+invented_slot | is there a chili cook off this weekend | {"intent": "recommendation_events", "date": "this weekend", "time": null, "place": "boston"}
+invented_slot | what alarms are set right now | {"intent": "alarm_query", "date": "today", "time": null, "place": null}
+invented_slot | my calendar to be added with bola birthday of twelveth july | {"intent": "calendar_set", "date": "twelfth july", "time": null, "place": "bola"}
+invented_slot | put me in on tuesday the twenty first at ten with al | {"intent": "calendar_set", "date": "the twenty first", "time": "ten am", "place": "al"}
+invented_slot | i need an event three days from now scheduled with amy | {"intent": "calendar_set", "date": "in three days", "time": null, "place": "amy"}
+invented_slot | add a reminder on thursdays at eleven and thirty am and name it dance classes | {"intent": "calendar_set", "date": "thursdays", "time": "eleven thirty am", "place": null}
+invented_slot | whether it would be sunny in califonia | {"intent": "weather_query", "date": null, "time": null, "place": "california"}
+invented_slot | remind me in one hour about my meeting | {"intent": "calendar_set", "date": "today", "time": "one hour", "place": null}
+invented_slot | siri what's the date | {"intent": "datetime_query", "date": "today", "time": null, "place": null}
+invented_slot | tell me the meetings i have for the week | {"intent": "calendar_query", "date": "this week", "time": null, "place": null}
+invented_slot | church with mom and dad on sunday | {"intent": "calendar_set", "date": "sunday", "time": null, "place": "home"}
+invented_slot | please remind me about the eleven am business meet | {"intent": "calendar_set", "date": "today", "time": "eleven am", "place": null}
+invented_slot | what's the best day next week to go out for pizza | {"intent": "recommendation_events", "date": "next week", "time": null, "place": "boston"}
+invented_slot | i need a reminder for tomorrow for joe's party after work | {"intent": "calendar_set", "date": "tomorrow", "time": "after work", "place": "joe'sin office"}
+invented_slot | will i need a coat this morning | {"intent": "recommendation_events", "date": "today", "time": null, "place": null}
+invented_slot | what time does the festival officially start | {"intent": "datetime_query", "date": null, "time": "official start time", "place": null}
+invented_slot | delete the richard's wedding event next year | {"intent": "calendar_remove", "date": "next year", "time": null, "place": "richard'dicty"}
+invented_slot | can i dry my clothes on the line | {"intent": "recommendation_events", "date": null, "time": null, "place": "outdoor"}
+invented_slot | pencil me in for sarahs birthday party on the twelveth | {"intent": "calendar_set", "date": "twelfth", "time": null, "place": "sarahs birthday party"}
+invented_slot | remind me of my dentist appointment in two hours | {"intent": "calendar_set", "date": "today", "time": "in two hours", "place": null}
+invented_slot | where should i go this weekend | {"intent": "recommendation_events", "date": "this weekend", "time": null, "place": "boston"}
+invented_slot | whether it would be sunny in califonia | {"intent": "weather_query", "date": null, "time": null, "place": "california"}
+invented_slot | mark sarah's birthday party on the twelveth | {"intent": "calendar_set", "date": "twelfth", "time": null, "place": null}
+invented_slot | please organize a meeting with my co workers | {"intent": "calendar_set", "date": null, "time": null, "place": "office"}
+invented_slot | am i booked for something | {"intent": "calendar_query", "date": "today", "time": null, "place": null}
+invented_slot | can i have the ten day forecast for me area | {"intent": "weather_query", "date": "ten days", "time": null, "place": null}
+invented_slot | what's the news for six hundred and forty five am today | {"intent": "datetime_query", "date": "today", "time": "six forty five am", "place": null}
+invented_slot | please schedule a meeting with my secretary | {"intent": "calendar_set", "date": null, "time": null, "place": "the office"}
+invented_slot | pawel prepare the meeting with john | {"intent": "calendar_set", "date": null, "time": null, "place": "boston"}
+invented_slot | i need the details about my next schedule | {"intent": "calendar_query", "date": "next week", "time": null, "place": null}
+invented_slot | i need to know events scheduled for the weekend | {"intent": "calendar_query", "date": "this weekend", "time": null, "place": null}
+invented_slot | cancel sam's party | {"intent": "calendar_remove", "date": "sam'sin", "time": null, "place": null}
+invented_slot | weather report of the week | {"intent": "weather_query", "date": "this week", "time": null, "place": null}
+invented_slot | how many alarms do i have set for morning hours between six and nine am | {"intent": "alarm_query", "date": null, "time": "six to nine am", "place": null}
+invented_slot | are there any special events in my town | {"intent": "recommendation_events", "date": "today", "time": null, "place": null}
+invented_slot | will it be warm on friday night | {"intent": "weather_query", "date": "friday", "time": "night", "place": "unknown"}
+invented_slot | what day and time is the acme meeting in san diego california | {"intent": "calendar_query", "date": "today", "time": null, "place": "san diego california"}
+invented_slot | are there any alarms set right now | {"intent": "alarm_query", "date": "today", "time": null, "place": null}
+invented_slot | book my next free day in the calendar for me to get a haircut at sally's | {"intent": "calendar_set", "date": "next free day", "time": null, "place": "sally'sin the city"}
+invented_slot | what is the weekend weather forecast | {"intent": "weather_query", "date": "this weekend", "time": null, "place": null}
+invented_slot | are there ways to go ahead and clear my calendar for the month | {"intent": "calendar_remove", "date": "this month", "time": null, "place": null}
+invented_slot | i want five hours freed up for jenn's birthday this saturday | {"intent": "calendar_set", "date": "this saturday", "time": "five hours", "place": "jenn'dicty"}
+invented_slot | what is the weather in zip code thirty two thousand two hundred and thirty four | {"intent": "weather_query", "date": null, "time": null, "place": "32023"}
+invented_slot | date of joining | {"intent": "datetime_query", "date": "today", "time": null, "place": null}
+invented_slot | put my doctors appointment on the calendar | {"intent": "calendar_set", "date": null, "time": null, "place": "doctor's office"}
+invented_slot | remind me that i have an appointment twelve o clock on saturday | {"intent": "calendar_set", "date": "saturday", "time": "twelve o'clock", "place": null}
+invented_slot | when is my meeting with human resources | {"intent": "calendar_query", "date": "today", "time": null, "place": null}
+invented_slot | weather fulton missouri | {"intent": "weather_query", "date": null, "time": null, "place": "fulton, missouri"}
