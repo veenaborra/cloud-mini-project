@@ -1,0 +1,3 @@
+green run (model-v1): https://github.com/veenaborra/cloud-mini-project/actions/runs/41841008027
+failed at quality gate (untrained Pythia-70M): https://github.com/veenaborra/cloud-mini-project/actions/runs/41841071333
+quality-gate	JSON validity must be at least 95%	2026-11-04T13:49:00.8383247Z QUALITY GATE FAILED: json_validity 0.0 < 95.0
