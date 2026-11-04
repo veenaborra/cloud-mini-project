@@ -1,0 +1,34 @@
+# Two labelling workers at the same time. Indexed Job: each Pod gets an index (0, 1)
+# which we pass to the worker as SHARD_INDEX.
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: teacher-label
+  namespace: pipeline
+spec:
+  completionMode: Indexed
+  completions: 2            # = SHARD_COUNT
+  parallelism: 2            # run both at once
+  backoffLimit: 6           # restart crashed workers; they resume from their shard file
+  template:
+    metadata:
+      labels: {app: teacher-label}
+    spec:
+      restartPolicy: OnFailure
+      containers:
+        - name: worker
+          image: cc-worker:1.0
+          imagePullPolicy: IfNotPresent      # use the imported image, don't pull
+          env:
+            - name: SHARD_INDEX
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.annotations['batch.kubernetes.io/job-completion-index']
+            - {name: SHARD_COUNT, value: "2"}
+            - {name: OLLAMA_URL, value: "http://host.k3d.internal:11434"}
+            - {name: S3_ENDPOINT, value: "http://seaweedfs.data.svc.cluster.local:8333"}
+          envFrom:
+            - secretRef: {name: s3-credentials}
+          resources:
+            requests: {cpu: 50m, memory: 64Mi}
+            limits: {cpu: 500m, memory: 256Mi}
