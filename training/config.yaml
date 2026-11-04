@@ -1,0 +1,20 @@
+# Everything that controls training. `make train` reads only this file.
+base_model: EleutherAI/pythia-70m
+train_file: data/train/train.jsonl
+max_records: 1500                 # first 1,500 records of the cleaned dataset
+
+seed: 42
+learning_rate: 0.0005
+batch_size: 16
+num_epochs: 6
+max_seq_length: 96                # tokens; our examples are ~40-60
+warmup_ratio: 0.05
+
+versions:                         # v2 = one more epoch (Task 2.5)
+  v1: {}
+  v2: {num_epochs: 7}
+
+library_versions:
+  python: "3.12"
+  torch: "2.5.1"
+  transformers: "4.46.3"
