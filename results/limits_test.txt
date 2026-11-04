@@ -1,0 +1,24 @@
+== limits: 
+NanoCpus=1000000000 Memory=1073741824
+== 50 sequential requests
+status counts: {200: 50} median 456 ms, max 587 ms
+== peak memory (bytes, from the container's cgroup)
+649838592
+CONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT   MEM %     NET I/O          BLOCK I/O        PIDS
+d696eff35be7   cp-test   0.18%     342.5MiB / 1GiB     33.45%    303MB / 4.94MB   1.13MB / 282MB   14
+== OOMKilled: false  running: true
+
+== FAULT_INJECT=1
+HTTP/1.1 500 Internal Server Error
+date: Wed, 04 Nov 2026 10:30:44 GMT
+server: uvicorn
+x-model-version: v1
+x-served-by: cp-fault
+content-length: 32
+content-type: application/json
+
+{"error":"invalid_model_output"}
+== image
+WARNING: This output is designed for human readability. For machine-readable output, please use --format.
+IMAGE            ID             DISK USAGE   CONTENT SIZE   EXTRA
+cmd-parser:1.0   7919199e4945        1.6GB          340MB   U    

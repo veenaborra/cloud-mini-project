@@ -1,0 +1,7 @@
+.git
+.venv
+build
+results
+data/teacher
+data/train
+.s3.env
