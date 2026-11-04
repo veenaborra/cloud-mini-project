@@ -1,0 +1,48 @@
+--- 13:32:09
+NAME                          CPU(cores)   MEMORY(bytes)   
+cmd-parser-7cd844d449-jwdhn   5m           380Mi           
+cmd-parser-7cd844d449-zxr6x   4m           381Mi           
+--- 13:32:19
+NAME                          CPU(cores)   MEMORY(bytes)   
+cmd-parser-7cd844d449-jwdhn   371m         391Mi           
+cmd-parser-7cd844d449-zxr6x   177m         392Mi           
+--- 13:32:30
+NAME                          CPU(cores)   MEMORY(bytes)   
+cmd-parser-7cd844d449-jwdhn   371m         391Mi           
+cmd-parser-7cd844d449-zxr6x   177m         392Mi           
+--- 13:32:40
+NAME                          CPU(cores)   MEMORY(bytes)   
+cmd-parser-7cd844d449-jwdhn   998m         392Mi           
+cmd-parser-7cd844d449-zxr6x   997m         396Mi           
+--- 13:32:51
+NAME                          CPU(cores)   MEMORY(bytes)   
+cmd-parser-7cd844d449-jwdhn   998m         392Mi           
+cmd-parser-7cd844d449-zxr6x   996m         396Mi           
+--- 13:33:01
+NAME                          CPU(cores)   MEMORY(bytes)   
+cmd-parser-7cd844d449-jwdhn   998m         392Mi           
+cmd-parser-7cd844d449-zxr6x   996m         396Mi           
+--- 13:33:11
+NAME                          CPU(cores)   MEMORY(bytes)   
+cmd-parser-7cd844d449-jwdhn   999m         393Mi           
+cmd-parser-7cd844d449-zxr6x   996m         396Mi           
+--- 13:33:22
+NAME                          CPU(cores)   MEMORY(bytes)   
+cmd-parser-7cd844d449-jwdhn   999m         393Mi           
+cmd-parser-7cd844d449-zxr6x   997m         399Mi           
+--- 13:33:32
+NAME                          CPU(cores)   MEMORY(bytes)   
+cmd-parser-7cd844d449-jwdhn   999m         393Mi           
+cmd-parser-7cd844d449-zxr6x   997m         399Mi           
+--- 13:33:42
+NAME                          CPU(cores)   MEMORY(bytes)   
+cmd-parser-7cd844d449-jwdhn   999m         393Mi           
+cmd-parser-7cd844d449-zxr6x   997m         398Mi           
+--- 13:33:53
+NAME                          CPU(cores)   MEMORY(bytes)   
+cmd-parser-7cd844d449-jwdhn   998m         393Mi           
+cmd-parser-7cd844d449-zxr6x   998m         405Mi           
+--- 13:34:03
+NAME                          CPU(cores)   MEMORY(bytes)   
+cmd-parser-7cd844d449-jwdhn   999m         393Mi           
+cmd-parser-7cd844d449-zxr6x   997m         406Mi           
