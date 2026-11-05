@@ -21,3 +21,12 @@ print("uploaded datasets/commands_pool.jsonl")
 
 for obj in s3.list_objects_v2(Bucket="datasets").get("Contents", []):
     print(" ", obj["Key"], obj["Size"], "bytes")
+
+# restore the labelled dataset (committed in git) so storage matches Task 1
+import glob
+for path in sorted(glob.glob("data/teacher/shard-*.jsonl")):
+    s3.upload_file(path, "datasets", "teacher/" + os.path.basename(path))
+    print("uploaded datasets/teacher/" + os.path.basename(path))
+for name in ("train.jsonl", "train.sha256"):
+    s3.upload_file(f"data/train/{name}", "datasets", f"v1/{name}")
+    print("uploaded datasets/v1/" + name)
