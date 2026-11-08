@@ -1,5 +1,15 @@
 # Cloud Computing Mini Project: distilled command parser on k3d
 
+
+## Links
+- GitHub repository: https://github.com/veenaborra/cloud-mini-project (final submission = tag `final`)
+- Model releases (model, tokenizer, version info, checksums):
+  - https://github.com/veenaborra/cloud-mini-project/releases/tag/model-v1
+  - https://github.com/veenaborra/cloud-mini-project/releases/tag/model-v2
+- CI run (passing): https://github.com/veenaborra/cloud-mini-project/actions/runs/41841008027
+- CI run failing at the quality gate (untrained model): https://github.com/veenaborra/cloud-mini-project/actions/runs/41841071333
+- Report: `report/report.pdf`  |  Handwritten reflection: `230103032.pdf`
+
 Pythia-70M fine-tuned on phi3.5 replies (sequence-level knowledge distillation), served with FastAPI
 on a local k3d cluster, with SeaweedFS object storage.
 
